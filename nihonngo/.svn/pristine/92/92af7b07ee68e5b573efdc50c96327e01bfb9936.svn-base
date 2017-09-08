@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.1" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.in.global.qna.controller.QnAController" project="nihonngo" 
+    file="/nihonngo/src/main/java/com/in/global/qna/controller/QnAController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="143" y="187"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="com.in.global.qna.dao.QnADAO" project="nihonngo" 
+    file="/nihonngo/src/main/java/com/in/global/qna/dao/QnADAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="660" y="544"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="com.in.global.qna.dao.QnADAOImpl" project="nihonngo" 
+    file="/nihonngo/src/main/java/com/in/global/qna/dao/QnADAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="854" y="179"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="com.in.global.qna.service.QnAService" project="nihonngo" 
+    file="/nihonngo/src/main/java/com/in/global/qna/service/QnAService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="344" y="547"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="com.in.global.qna.service.QnAServiceImpl" project="nihonngo" 
+    file="/nihonngo/src/main/java/com/in/global/qna/service/QnAServiceImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="280" x="353" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.in.global.lecture.QnAVO" project="nihonngo" 
+    file="/nihonngo/src/main/java/com/in/global/lecture/QnAVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1135" y="212"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.in.global.qna.vo.QnAAnswerVO" project="nihonngo" 
+    file="/nihonngo/src/main/java/com/in/global/qna/vo/QnAAnswerVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1156" y="619"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.in.global.qna.QnAMapper" project="nihonngo" 
+    file="/nihonngo/src/main/java/com/in/global/qna/QnAMapper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="937" y="442"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="9">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="10" name="qdao"/>      
+      <multiplicity id="11" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="12">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="13" name="qs"/>      
+      <multiplicity id="14" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="15">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="16">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
