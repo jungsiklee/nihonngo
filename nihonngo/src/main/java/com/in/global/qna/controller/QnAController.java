@@ -56,17 +56,6 @@ public class QnAController {
 		
 		return null;
 	}
-
-
-
-
-
-
-
-
-
-
-
 	public void setQs(QnAService qs) {
 		this.qs = qs;
 	}
