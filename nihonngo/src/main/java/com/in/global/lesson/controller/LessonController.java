@@ -15,6 +15,7 @@ public class LessonController {
 
 	public void setLessonService(LessonService lessonService) {
 		this.lessonService = lessonService;
+		//aaa
 	}
 	
 	@RequestMapping("/lesson/studyLesson.do")
