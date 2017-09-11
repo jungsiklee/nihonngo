@@ -19,7 +19,7 @@ public class LessonController {
 	
 	@RequestMapping("/lesson/studyLesson.do")
 	public String studyLesson(@RequestParam String userId,@RequestParam String password,Model model){
-		
+		//aaa
 		return "/member/main";
 	}
 	
