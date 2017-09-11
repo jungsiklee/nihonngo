@@ -2,6 +2,7 @@ package com.in.global.payment.dao;
 
 import java.util.List;
 
+import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.in.global.payment.vo.PaymentStateVO;
@@ -9,10 +10,10 @@ import com.in.global.payment.vo.PaymentStateVO;
 public class PaymentStateDAOImpl implements PaymentStateDAO {
 	
 	@Autowired
-	private SqlSession SqlSession;	
+	private SqlSession sqlSession;	
 
 	public void setSqlSession(SqlSession sqlSession) {
-		SqlSession = sqlSession;
+		sqlSession = sqlSession;
 	}
 
 	@Override

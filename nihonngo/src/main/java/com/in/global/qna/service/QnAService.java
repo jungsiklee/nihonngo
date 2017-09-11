@@ -2,8 +2,8 @@ package com.in.global.qna.service;
 
 import java.util.List;
 
-import com.in.global.lecture.QnAVO;
 import com.in.global.qna.vo.QnAAnswerVO;
+import com.in.global.qna.vo.QnAVO;
 
 public interface QnAService {
 	public List<QnAVO> retrieveQnA();

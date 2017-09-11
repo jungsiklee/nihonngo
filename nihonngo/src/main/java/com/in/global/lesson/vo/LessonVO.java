@@ -14,8 +14,9 @@ public class LessonVO {
 	private int lessonDate;
 	private int lessonPrice;
 	private int lessonTime;
-	private String memberId;
+	private int memberSeq;
 	private int lecturePoint;
+	
 	public int getlessonSeq() {
 		return lessonSeq;
 	}
@@ -76,11 +77,24 @@ public class LessonVO {
 	public void setLessonTime(int lessonTime) {
 		this.lessonTime = lessonTime;
 	}
-	public String getMemberId() {
-		return memberId;
+	
+	public int getLessonSeq() {
+		return lessonSeq;
 	}
-	public void setMemberId(String memberId) {
-		this.memberId = memberId;
+	public void setLessonSeq(int lessonSeq) {
+		this.lessonSeq = lessonSeq;
+	}
+	public int getGangsaSeq() {
+		return gangsaSeq;
+	}
+	public void setGangsaSeq(int gangsaSeq) {
+		this.gangsaSeq = gangsaSeq;
+	}
+	public int getMemberSeq() {
+		return memberSeq;
+	}
+	public void setMemberSeq(int memberSeq) {
+		this.memberSeq = memberSeq;
 	}
 	public int getLecturePoint() {
 		return lecturePoint;

@@ -3,9 +3,9 @@ package com.in.global.qna.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
 
-import com.in.global.lecture.QnAVO;
 import com.in.global.qna.service.QnAService;
 import com.in.global.qna.vo.QnAAnswerVO;
+import com.in.global.qna.vo.QnAVO;
 
 public class QnAController {
 	

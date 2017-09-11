@@ -1,13 +1,14 @@
 package com.in.global.payment.vo;
 
+import com.in.global.lesson.vo.LessonVO;
+import com.in.global.member.vo.MemberVO;
+
 public class PaymentStateVO {
 
 	private int paymentStateSeq;
 	private int paymentStateNum; 
-	private int lecturePointNUm;
-	private String memberId;
-	private String lessonSeq;
-	
+	private MemberVO member;
+	private LessonVO lesson;
 	public int getPaymentStateSeq() {
 		return paymentStateSeq;
 	}
@@ -20,26 +21,19 @@ public class PaymentStateVO {
 	public void setPaymentStateNum(int paymentStateNum) {
 		this.paymentStateNum = paymentStateNum;
 	}
-	public int getLecturePointNUm() {
-		return lecturePointNUm;
+	public MemberVO getMember() {
+		return member;
 	}
-	public void setLecturePointNUm(int lecturePointNUm) {
-		this.lecturePointNUm = lecturePointNUm;
+	public void setMember(MemberVO member) {
+		this.member = member;
 	}
-	public String getMemberId() {
-		return memberId;
+	public LessonVO getLesson() {
+		return lesson;
 	}
-	public void setMemberId(String memberId) {
-		this.memberId = memberId;
-	}
-	public String getLessonSeq() {
-		return lessonSeq;
-	}
-	public void setLessonSeq(String lessonSeq) {
-		this.lessonSeq = lessonSeq;
+	public void setLesson(LessonVO lesson) {
+		this.lesson = lesson;
 	}
 	
-
 	
 	
 }

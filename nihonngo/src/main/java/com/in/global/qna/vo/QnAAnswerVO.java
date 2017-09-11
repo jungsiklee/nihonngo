@@ -7,9 +7,8 @@ public class QnAAnswerVO {
 	private int qnaAnswerSeq;
 	private int qnaSeq;
 	private String qnaAnswerContent;
-	private String memberId;
+	private int memberSeq;
 	private Date regDate;
-	
 	public int getQnaAnswerSeq() {
 		return qnaAnswerSeq;
 	}
@@ -28,11 +27,11 @@ public class QnAAnswerVO {
 	public void setQnaAnswerContent(String qnaAnswerContent) {
 		this.qnaAnswerContent = qnaAnswerContent;
 	}
-	public String getMemberId() {
-		return memberId;
+	public int getMemberSeq() {
+		return memberSeq;
 	}
-	public void setMemberId(String memberId) {
-		this.memberId = memberId;
+	public void setMemberSeq(int memberSeq) {
+		this.memberSeq = memberSeq;
 	}
 	public Date getRegDate() {
 		return regDate;
@@ -40,5 +39,6 @@ public class QnAAnswerVO {
 	public void setRegDate(Date regDate) {
 		this.regDate = regDate;
 	}
+	
 	
 }

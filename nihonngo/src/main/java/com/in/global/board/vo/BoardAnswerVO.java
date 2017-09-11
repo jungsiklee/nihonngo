@@ -6,7 +6,7 @@ public class BoardAnswerVO {
 	private int boardAnswerSeq;
 	private int boardSeq;
 	private String boardAnswerContent;
-	private String memberId;
+	private int memberSeq;
 	private Date regDate;
 	
 	public int getBoardAnswerSeq() {
@@ -27,11 +27,12 @@ public class BoardAnswerVO {
 	public void setBoardAnswerContent(String boardAnswerContent) {
 		this.boardAnswerContent = boardAnswerContent;
 	}
-	public String getMemberId() {
-		return memberId;
+	
+	public int getMemberSeq() {
+		return memberSeq;
 	}
-	public void setMemberId(String memberId) {
-		this.memberId = memberId;
+	public void setMemberSeq(int memberSeq) {
+		this.memberSeq = memberSeq;
 	}
 	public Date getRegDate() {
 		return regDate;

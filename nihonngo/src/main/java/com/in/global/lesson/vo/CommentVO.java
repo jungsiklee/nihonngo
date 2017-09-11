@@ -7,9 +7,8 @@ public class CommentVO {
 	private int commentSeq;
 	private String commentContent;
 	private Date regDate;
-	private String memberId;
-	private int LessonSeq;
-	
+	private int memberSeq;
+	private int lessonSeq;
 	public int getCommentSeq() {
 		return commentSeq;
 	}
@@ -28,17 +27,19 @@ public class CommentVO {
 	public void setRegDate(Date regDate) {
 		this.regDate = regDate;
 	}
-	public String getMemberId() {
-		return memberId;
+	public int getMemberSeq() {
+		return memberSeq;
 	}
-	public void setMemberId(String memberId) {
-		this.memberId = memberId;
+	public void setMemberSeq(int memberSeq) {
+		this.memberSeq = memberSeq;
 	}
 	public int getLessonSeq() {
-		return LessonSeq;
+		return lessonSeq;
 	}
 	public void setLessonSeq(int lessonSeq) {
-		LessonSeq = lessonSeq;
+		this.lessonSeq = lessonSeq;
 	}
+	
+	
 	
 }

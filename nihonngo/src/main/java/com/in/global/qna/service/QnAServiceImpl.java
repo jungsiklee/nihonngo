@@ -5,9 +5,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.in.global.lecture.QnAVO;
 import com.in.global.qna.dao.QnADAO;
 import com.in.global.qna.vo.QnAAnswerVO;
+import com.in.global.qna.vo.QnAVO;
 @Service
 public class QnAServiceImpl implements QnAService {
 	

@@ -4,10 +4,10 @@ import java.util.Date;
 
 public class BoardVO {
 	private int boardSeq;
-	private int answerSeq;
 	private int gangsaSeq;
 	private String subject;
-	private String memberId;
+	private String content;
+	private int memberSeq;
 	private Date regDate;
 	
 	public int getBoardSeq() {
@@ -15,12 +15,6 @@ public class BoardVO {
 	}
 	public void setBoardSeq(int boardSeq) {
 		this.boardSeq = boardSeq;
-	}
-	public int getAnswerSeq() {
-		return answerSeq;
-	}
-	public void setAnswerSeq(int answerSeq) {
-		this.answerSeq = answerSeq;
 	}
 	public int getGangsaSeq() {
 		return gangsaSeq;
@@ -34,11 +28,17 @@ public class BoardVO {
 	public void setSubject(String subject) {
 		this.subject = subject;
 	}
-	public String getMemberId() {
-		return memberId;
+	public String getContent() {
+		return content;
 	}
-	public void setMemberId(String memberId) {
-		this.memberId = memberId;
+	public void setContent(String content) {
+		this.content = content;
+	}
+	public int getMemberSeq() {
+		return memberSeq;
+	}
+	public void setMemberSeq(int memberSeq) {
+		this.memberSeq = memberSeq;
 	}
 	public Date getRegDate() {
 		return regDate;
