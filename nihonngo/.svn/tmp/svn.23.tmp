@@ -1,0 +1,15 @@
+package com.in.global.qna.vo;
+
+public class QnAVO {
+	
+	private int qnaSeq;
+
+	public int getQnaSeq() {
+		return qnaSeq;
+	}
+
+	public void setQnaSeq(int qnaSeq) {
+		this.qnaSeq = qnaSeq;
+	}
+	
+}
