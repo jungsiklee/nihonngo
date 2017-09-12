@@ -7,7 +7,7 @@ import com.in.global.lesson.vo.LessonVO;
 
 public interface LessonService {
 	
-	public List<LessonVO> retrieveLessonList();
+	public List<LessonVO> retrieveLessonList(int lectureSeq);
 	
 	public void studyLesson(String memberId, int lessonSeq);
 	

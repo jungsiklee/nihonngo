@@ -22,6 +22,7 @@ public class LessonDAOImpl implements LessonDAO {
 	@Override
 	public List<LessonVO> selectLessonList() {
 		// TODO Auto-generated method stub
+		
 		return null;
 	}
 
@@ -59,6 +60,14 @@ public class LessonDAOImpl implements LessonDAO {
 	public boolean deleteComment(String memberId, int lessonSeq, int commentSeq) {
 		// TODO Auto-generated method stub
 		return false;
+	}
+
+	@Override
+	public List<LessonVO> lessonList(int lectureSeq) {
+		// TODO Auto-generated method stub
+		List<LessonVO> list = sqlSession.selectList("lessonList", lectureSeq);
+		
+		return list;
 	}
 
 }

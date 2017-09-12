@@ -10,4 +10,7 @@
   	<select id="getOneMember" resultType="MemberVO" parameterType="String">
   		SELECT * FROM t_member WHERE user_id = #{userId}
  	 </select>
+ 	 <select id="lessonList" resultType="LessonVO" parameterType="int">
+  		SELECT lesson_namm FROM n_lesson WHERE lecture_seq = #{lectureSeq}
+ 	 </select>
   </mapper>

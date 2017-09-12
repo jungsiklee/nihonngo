@@ -18,6 +18,8 @@
 	<mvc:view-controller path="/member/main" view-name="/member/main" />
 	<mvc:view-controller path="/member/loginValid"
 		view-name="/member/loginValid" />
+	<mvc:view-controller path="/lesson/lessonList"
+		view-name="/lesson/lessonList" />
 
 
 	<!-- DispatcherServlet Context: defines this servlet's request-processing 

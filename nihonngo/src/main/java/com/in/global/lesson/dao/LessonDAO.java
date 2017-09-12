@@ -10,6 +10,8 @@ public interface LessonDAO {
 	
 public List<LessonVO> selectLessonList();
 	
+	public List<LessonVO> lessonList(int lectureSeq);
+
 	public void studyLesson(String memberId, int lessonSeq);
 	
 	public boolean updatePlayTime(String memberId, int lessonSeq, int paymentStateSeq);

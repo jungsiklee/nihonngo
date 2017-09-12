@@ -20,9 +20,10 @@ public class LessonServiceImpl implements LessonService{
 	}
 
 	@Override
-	public List<LessonVO> retrieveLessonList() {
+	public List<LessonVO> retrieveLessonList(int lectureSeq) {
 		// TODO Auto-generated method stub
-		return null;
+		List<LessonVO> list = lessonDAO.lessonList(lectureSeq);
+		return list;
 	}
 
 	@Override
